@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
+  "engines": {
+    "node": ">18.11.0"
+  },
   "scripts": {
-    "start": "node $NUM"
+    "start": "node --watch $NUM",
+    "solve": "node $NUM"
   },
   "author": "@nateeo"
 }
